@@ -2,7 +2,7 @@
 # of the columns.
 
 import csv
-with open("New.csv", "r",) as file:
+with open("csvfile.csv", "r",) as file:
     reader = csv.reader(file)
     for row in reader:
         print(row)
